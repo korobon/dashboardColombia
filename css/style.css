@@ -1,0 +1,370 @@
+.body-container {
+    background: #000 url(../images/services/bg_services.png);
+    background-attachment: fixed;
+}
+
+.app-container .content-container {
+    margin-right: 0;
+    margin-left: 0; 
+}
+
+.app-container .header-container .navbar {
+ 	min-height: 60px;
+}
+
+.app-container .header-container .navbar-top .navbar-header {
+ 	margin-left: 70px;
+}
+
+.app-container .header-container .navbar .navbar-nav {
+    margin-top: 10px;
+}
+
+.app-container .content-container .side-menu {
+	overflow-y: auto;
+	z-index: 100000;
+	position: fixed;
+	width: 60px;
+	height: 100%;
+	overflow-x: hidden; 
+	background-color: #000;		
+}
+	
+.app-container .content-container .side-menu .navbar {
+	background: none;	
+	border:0;
+}
+	
+.app-container .content-container .side-menu .navbar .navbar-header {
+	min-height: 56px; 
+	background-color: rgba(41, 199, 95, 0.45);
+	width: 100%;
+}
+
+.app-container .content-container .side-menu .navbar-nav li {
+	margin-bottom: 0;
+	border-radius: 0;
+	width: 100%;
+}
+
+.app-container .content-container .side-menu .navbar-nav li a .icon, .app-container .content-container .side-menu .navbar .navbar-header .navbar-brand .icon {
+	margin-left: 0px;
+	margin-top: 10px;
+	width: 38px;
+	text-align: center;
+	font-size: 1.1em;
+	display: inline-block; 
+}
+
+.app-container .content-container .side-menu .navbar-nav li a .title, .app-container .content-container .side-menu .navbar .navbar-header .navbar-brand .title {
+	white-space: nowrap;
+	margin-top: -20px;
+	display: none;
+}
+
+.app-container .content-container .side-menu .navbar .navbar-header .navbar-brand .title {
+	padding-left: 50px;
+	color: #fff;
+}
+
+.app-container .content-container .side-menu .navbar .navbar-header .navbar-brand .icon {
+	color: #fff;
+}
+	
+.app-container .content-container .side-menu .navbar-header .navbar-expand-toggle, .app-container .header-container .navbar-top .navbar-header .navbar-expand {
+	position: absolute;
+	width: 60px;
+	height: 60px;
+	background-color: transparent;
+	border: 0px;
+}
+
+.app-container .content-container .side-menu .navbar-header .navbar-expand-toggle {
+	right: 0;
+	-moz-transition: all 0.25s linear;
+	-webkit-transition: all 0.25s linear;
+	transition: all 0.25s linear;
+	opacity: 0.75; 
+	display: none; 
+}
+
+.breadcrumb {
+    background: none;
+    padding-top: 17px;
+    margin-bottom: 0;
+}
+
+.navbar .navbar-breadcrumb > li {
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 1.5em;
+    padding-left: 35px;
+}
+
+.dropdown.notification .dropdown-toggle {
+	border-radius: 50%;
+	background-color: rgba(41, 199, 95, 0.15);
+}
+
+.dropdown.notification a:hover {
+	background-color: rgba(41, 199, 95, 0.45) !important;
+}
+
+.dropdown.notification .dropdown-menu,  {
+	font-family: 'Roboto Condensed', sans-serif;
+}
+
+.dropdown.notification .dropdown-menu .title {
+	padding: 5px 10px;
+	-moz-box-shadow: 0 1px 2px rgba(0, 0, 0, 0.3);
+	-webkit-box-shadow: 0 1px 2px rgba(0, 0, 0, 0.3);
+	box-shadow: 0 1px 2px rgba(0, 0, 0, 0.3);
+}
+
+.dropdown.notification .dropdown-menu .message {
+	text-align: center;
+	padding: 10px 20px; 
+}
+
+.dropdown.profile .dropdown-toggle {
+	padding-right: 30px;
+	font-size: 11px;	
+}
+
+.navbar .dropdown.profile .dropdown-menu {
+	width: 305px;
+	padding-bottom: 0px;
+	text-align: center; 
+}
+
+.default {
+	background-color: rgba(41, 199, 95, 0.15);	
+}
+
+.default:hover {
+	background-color: rgba(41, 199, 95, 0.45);	
+}
+
+.services, .users {
+	margin-top: 60px;
+}
+
+.services-btn, .services-btn:hover {
+	text-decoration: none;
+	color: #000;
+}
+
+.services-btn:hover {
+	text-shadow: 4px 6px 6px #666666;
+	-moz-transition: all 0.25s linear;
+	-webkit-transition: all 0.25s linear;
+	transition: all 0.25s linear;
+	opacity: 0.75; 
+}
+
+.center {
+  text-align: center;
+  padding-bottom: 55px;
+  color: #fff;
+}
+
+.lead{
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 400;
+}
+
+.services-wrap {
+  padding: 40px 30px;
+  background: #fff;
+  border-radius: 4px;
+  margin: 0 0 40px;
+}
+
+.services-wrap h3 {
+  font-size: 20px;
+  margin: 10px 0;
+}
+
+.services-wrap .pull-left {
+  margin-right: 20px;
+}
+
+.content {
+	margin-top: 60px;
+	background: #F9F9F9;
+	padding-top: 35px;
+	padding-bottom: 35px;
+}
+
+.content .skill {
+	background: #fff;
+	border-radius: 1px;
+	padding: 25px;
+	border: 1px solid #ddd;
+	height: 450px;
+}
+
+.content .skill, .content .skill h3 {
+	color:#787878;
+	line-height: 24px;
+	font-size: 16px;
+}
+
+.progress, 
+.progress-bar {
+  line-height: 15px;
+  overflow: visible;
+  text-align: right;
+  border-radius: 20px;
+}
+
+.progress{
+  position: relative;
+  height: 15px;
+}
+
+.progress-bar{
+  background: rgba(41, 199, 95, 0.45);
+}
+
+.progress .bar-width{
+  background: rgba(41, 199, 95, 0.75);
+  position: absolute;
+  width: 40px;
+  height: 20px;
+  line-height: 20px;
+  text-align: center;
+  font-size: 12px;
+  font-weight: 700;
+  top: -30px;
+  border-radius: 3px;
+  margin-left: -30px;
+}
+
+.progress span{
+  position: relative;
+}
+
+.progress span:before{
+  content: " ";
+  position: absolute;
+  width: auto;
+  height: auto;
+  border-width: 8px 5px;
+  border-style: solid;
+  bottom: -15px;
+  right: 8px;
+  border-color: rgba(41, 199, 95, 0.75) transparent transparent transparent;
+}
+
+.content .skill .media {
+	font-size: 13px;
+}
+
+.content .skill .media .media-middle {
+	position: absolute;
+}
+
+.content .skill .media .media-object {
+	width: 60px;
+	height: 60px;
+	border: 1px solid #ddd;
+}
+
+.content .skill .media .media-body h4{
+	font-size: 17px;
+}
+
+.content .skill .media .media-body {
+	margin-left: 75px;
+	line-height: 12px;
+}
+
+.content .skill .media .media-body .username {
+	font-size: 11px;
+	font-weight: bold;
+}
+
+.content .skill .media .media-body .notice-datetim {
+	font-size: 9px;
+	color: #AAA;
+}
+
+.content .skill .skill-footer {
+	margin-top: 20px;
+}
+
+.content .skill .skill-footer .notice-load-more {
+	width: 100%;
+}
+
+.login .login-wrap, .users .users-wrap {
+	background: #fff;
+	border: 1px solid #ddd;
+	border-radius: 20px;
+	width: 100%;
+}
+
+.login .login-wrap {
+	margin-left: 110%;
+	height: 380px;
+}
+
+.login .login-wrap .login-img {
+	width: 40%;
+	border-radius: 50%;
+	border: 1px solid #ddd;
+	margin: 30px;
+	margin-left: 106px;
+	background-color: rgba(41, 199, 95, 0.15);	
+}
+
+.login .login-wrap .login-img img{
+	border-radius: 50%;
+	border: 1px solid #ddd;
+	margin-left: 26px;
+	margin-top: 25px;
+	margin-bottom: -29px;
+	width: 90px;
+}
+
+.login .login-wrap .login-form {
+	padding: 15px;
+}
+
+.users .users-wrap {
+	margin-top: -25px;
+	margin-left: 75%;
+	padding-top: 60px;
+	padding-right: 20px;
+	padding-left: 20px;
+	margin-left: 75%;
+}
+.users .users-wrap .checkbox label {
+	color: black;
+	display: inline-block;
+}
+
+.users .list {
+	margin-left: 15%;
+}
+
+.users .list table {
+	color: #787878;
+	text-transform: capitalize;
+}
+
+.users .list table .success{
+	font-weight: bold;
+	text-transform: capitalize;
+	height: 50px;
+}
+
+.users .list table tr td {
+	text-align: justify;
+}
+
+.users .list table .success td {
+	padding-top: 15px;
+	text-align: center;
+}
